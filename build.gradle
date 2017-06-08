@@ -1,1 +1,13 @@
+plugins {
+  id "org.sonarqube" version "2.4"
+}
+
+description = 'Example of SonarQube Scanner for Gradle Usage'
+version = '1.0'
+
+sonarqube {
+    properties {
+        property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+    }
+}
 apply plugin: 'java'
