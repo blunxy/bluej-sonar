@@ -3,9 +3,6 @@ jdk:
   - oraclejdk8
 addons:
   sonarqube:
-    organization: "bluetrav" # the key of the org you chose at step #3
-    token:
-      secure: 0f87891ba2bda43de13bad8b7f9f564d98ee981b
+    organization: "bluetrav"
 script:
-  # other script steps might be done before running the actual SonarQube analysis
   - sonar-scanner
