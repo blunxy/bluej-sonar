@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 addons:
   sonarqube:
-    organization: "mybluej" # the key of the org you chose at step #3
+    organization: "bluetrav" # the key of the org you chose at step #3
     token:
       secure: 0f87891ba2bda43de13bad8b7f9f564d98ee981b
 script:
